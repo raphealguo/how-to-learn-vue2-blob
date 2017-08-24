@@ -30,42 +30,42 @@
 
 1. 第一章 基础概念
 
-	* [1.1 Virtual DOM](./articles/1.1.md) (源码总共231行，[查看代码](https://github.com/raphealguo/how-to-learn-vue2/tree/1.1/src))
+	* [1.1 Virtual DOM](https://github.com/raphealguo/how-to-learn-vue2-blob/blob/master/articles/1.1.md) (源码总共231行，[查看代码](https://github.com/raphealguo/how-to-learn-vue2/tree/1.1/src))
 
 		整个Vue的底层渲染机制是依赖VD的实现，因此先写一个极简的VD算法是非常不错的开头。
 
-	* [1.2 HTML parser](./articles/1.2.md) (源码总共639行，[查看代码](https://github.com/raphealguo/how-to-learn-vue2/tree/1.2/src)，[查看新增代码](https://github.com/raphealguo/how-to-learn-vue2/compare/1.1...1.2))
+	* [1.2 HTML parser](https://github.com/raphealguo/how-to-learn-vue2-blob/blob/master/articles/1.2.md) (源码总共639行，[查看代码](https://github.com/raphealguo/how-to-learn-vue2/tree/1.2/src)，[查看新增代码](https://github.com/raphealguo/how-to-learn-vue2/compare/1.1...1.2))
 
 		每次手工构造一个 VNode 树效率非常低，而且可读性差，因此这一节会构造一个解释器，能把 HTML 字符串转化成 VNode树。
 
-		还可以阅读一下番外篇: [1.2.1 一个兼容性更佳的HTML parser](./articles/1.2.1.md)
+		还可以阅读一下番外篇: [1.2.1 一个兼容性更佳的HTML parser](https://github.com/raphealguo/how-to-learn-vue2-blob/blob/master/articles/1.2.1.md)
 
-	* [1.3 构建一个最简单的数据绑定的 Vue](./articles/1.3.md) (源码总共945行，[查看代码](https://github.com/raphealguo/how-to-learn-vue2/tree/1.3/src)，[查看新增代码](https://github.com/raphealguo/how-to-learn-vue2/compare/1.2.1...1.3))
+	* [1.3 构建一个最简单的数据绑定的 Vue](https://github.com/raphealguo/how-to-learn-vue2-blob/blob/master/articles/1.3.md) (源码总共945行，[查看代码](https://github.com/raphealguo/how-to-learn-vue2/tree/1.3/src)，[查看新增代码](https://github.com/raphealguo/how-to-learn-vue2/compare/1.2.1...1.3))
 
 		前边2节的代码已经让我们有足够的基础可以构造一个简单的 Vue 类，在这一篇文章会介绍如何在 Vue 模板语法新增语法糖的流程。
 
 2. 第二章 Vue雏形
 
-	* [2.1 VNode 的属性 attrs 和 props](./articles/2.1.md) (源码总共1112行，[查看代码](https://github.com/raphealguo/how-to-learn-vue2/tree/2.1/src)，[查看新增代码](https://github.com/raphealguo/how-to-learn-vue2/compare/1.3...2.1))
+	* [2.1 VNode 的属性 attrs 和 props](https://github.com/raphealguo/how-to-learn-vue2-blob/blob/master/articles/2.1.md) (源码总共1112行，[查看代码](https://github.com/raphealguo/how-to-learn-vue2/tree/2.1/src)，[查看新增代码](https://github.com/raphealguo/how-to-learn-vue2/compare/1.3...2.1))
 
 		在前边我们忽略了 Dom 元素的属性，我们这一节就把这个补齐，同时从这一节开始我们来逐步完善一个 Vue 的 todo 案例。
 
 	* 2.2 控制语句
 
-		* [2.2.1 条件渲染 v-if, v-else-if, v-else](./articles/2.2.1.md) (源码总共1237行，[查看代码](https://github.com/raphealguo/how-to-learn-vue2/tree/2.2.1/src)，[查看新增代码](https://github.com/raphealguo/how-to-learn-vue2/compare/2.1...2.2.1))
+		* [2.2.1 条件渲染 v-if, v-else-if, v-else](https://github.com/raphealguo/how-to-learn-vue2-blob/blob/master/articles/2.2.1.md) (源码总共1237行，[查看代码](https://github.com/raphealguo/how-to-learn-vue2/tree/2.2.1/src)，[查看新增代码](https://github.com/raphealguo/how-to-learn-vue2/compare/2.1...2.2.1))
 
 			往往我们需要通过控制某个状态显示或者隐藏界面的某部分，这里就需要用到 if else 的控制语句。
 
-		* [2.2.2 列表渲染 v-for](./articles/2.2.2.md) (源码总共1371行，[查看代码](https://github.com/raphealguo/how-to-learn-vue2/tree/2.2.2/src)，[查看新增代码](https://github.com/raphealguo/how-to-learn-vue2/compare/2.2.1...2.2.2))
+		* [2.2.2 列表渲染 v-for](https://github.com/raphealguo/how-to-learn-vue2-blob/blob/master/articles/2.2.2.md) (源码总共1371行，[查看代码](https://github.com/raphealguo/how-to-learn-vue2/tree/2.2.2/src)，[查看新增代码](https://github.com/raphealguo/how-to-learn-vue2/compare/2.2.1...2.2.2))
 
 			这一节我们更新了 todo 的案例，支持 v-for 语法，可以传递一个数组进行列表渲染。
 
-			想了解如何改善 VNode 的 patch 算法减少列表 DOM 大规模重绘，还可以阅读番外篇: [2.2.2.1 列表渲染 v-for 的 key](./articles/2.2.2.1.md)。
+			想了解如何改善 VNode 的 patch 算法减少列表 DOM 大规模重绘，还可以阅读番外篇: [2.2.2.1 列表渲染 v-for 的 key](https://github.com/raphealguo/how-to-learn-vue2-blob/blob/master/articles/2.2.2.1.md)。
 
 
 	* 2.3 数据绑定
 
-		* [2.3.1 响应式原理](./articles/2.3.1.md) (源码总共1547行，[查看代码](https://github.com/raphealguo/how-to-learn-vue2/tree/2.3.1/src)，[查看新增代码](https://github.com/raphealguo/how-to-learn-vue2/compare/2.2.2.1...2.3.1))
+		* [2.3.1 响应式原理](https://github.com/raphealguo/how-to-learn-vue2-blob/blob/master/articles/2.3.1.md) (源码总共1547行，[查看代码](https://github.com/raphealguo/how-to-learn-vue2/tree/2.3.1/src)，[查看新增代码](https://github.com/raphealguo/how-to-learn-vue2/compare/2.2.2.1...2.3.1))
 
 			在之前的例子中，我们总是通过 vm.setData( { a:1, b:2 /* 需要填写整个完整的 data */} ) 来改变数据，从而引起界面的响应式变化。为了提高开发效率和可读性，我们更希望使用 vm.a = 3 来修改值，从而更新视图。
 
@@ -103,7 +103,7 @@
 
 ## 附录
 
-1. [VNode render](./articles/VNodeRender.md)
+1. [VNode render](https://github.com/raphealguo/how-to-learn-vue2-blob/blob/master/articles/VNodeRender.md)
 
 ## 关于我
 
