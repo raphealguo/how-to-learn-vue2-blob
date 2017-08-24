@@ -77,6 +77,18 @@
 
 	* 2.4 事件处理器
 
+		* [2.4.1 事件监听](https://github.com/raphealguo/how-to-learn-vue2-blob/blob/master/articles/2.4.1.md) (源码总共2391行，[查看代码](https://github.com/raphealguo/how-to-learn-vue2/tree/2.4.1/src)，[查看新增代码](https://github.com/raphealguo/how-to-learn-vue2/compare/2.3.2...2.4.1))
+
+			xxx
+
+		* [2.4.2 ](https://github.com/raphealguo/how-to-learn-vue2-blob/blob/master/articles/2.4.2.md) (源码总共 行，[查看代码](https://github.com/raphealguo/how-to-learn-vue2/tree/2.4.2/src)，[查看新增代码](https://github.com/raphealguo/how-to-learn-vue2/compare/2.4.1...2.4.2))
+
+			xxx
+
+		* [2.4.3 ](https://github.com/raphealguo/how-to-learn-vue2-blob/blob/master/articles/2.4.3.md) (源码总共 行，[查看代码](https://github.com/raphealguo/how-to-learn-vue2/tree/2.4.3/src)，[查看新增代码](https://github.com/raphealguo/how-to-learn-vue2/compare/2.4.2...2.4.3))
+
+			xxx
+
 	* 2.5 完成todo案例
 
 3. 第三章 Vue进阶
