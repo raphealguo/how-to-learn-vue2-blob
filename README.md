@@ -14,6 +14,8 @@
 
 ## 如何运行
 
+从 [how-to-learn-vue2项目](https://github.com/raphealguo/how-to-learn-vue2) 下载各个分支代码
+
 使用webpack进行打包，源码采用ES6风格编写。
 
 构建:  `npm install; webpack`
