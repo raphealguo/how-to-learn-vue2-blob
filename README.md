@@ -80,13 +80,9 @@
 
 			前边一直在介绍如何渲染界面，当你需要和界面做交互的时候，就需要涉及到 Dom 的事件处理，所以在这一节，我们也要往之前的模型里边加上监听事件的语法。
 
-		* [2.4.2 ](https://github.com/raphealguo/how-to-learn-vue2-blob/blob/master/articles/2.4.2.md) (源码总共  行，[查看代码](https://github.com/raphealguo/how-to-learn-vue2/tree/2.4.2/src)，[查看新增代码](https://github.com/raphealguo/how-to-learn-vue2/compare/2.4.1...2.4.2))
+		* [2.4.2 完善事件语法以及事件修饰符](https://github.com/raphealguo/how-to-learn-vue2-blob/blob/master/articles/2.4.2.md) (源码总共 2557 行，[查看代码](https://github.com/raphealguo/how-to-learn-vue2/tree/2.4.2/src)，[查看新增代码](https://github.com/raphealguo/how-to-learn-vue2/compare/2.4.1...2.4.2))
 
-			xxx
-
-		* [2.4.3 ](https://github.com/raphealguo/how-to-learn-vue2-blob/blob/master/articles/2.4.3.md) (源码总共  行，[查看代码](https://github.com/raphealguo/how-to-learn-vue2/tree/2.4.3/src)，[查看新增代码](https://github.com/raphealguo/how-to-learn-vue2/compare/2.4.2...2.4.3))
-
-			xxx
+			2.4.1节设计的 v-on 语法仅接受方法名: ```v-on:dblclick="editTodo"``` ，由于语法过于局限，所以没法在触发 editTodo 事件的时候知道当前元素映射的数据，更好的语法应该是 ```v-on:dblclick="editTodo(todo)"``` ，此外这一节也新增点语法糖: Vue 的事件修饰符。
 
 	* 2.5 完成todo案例
 
