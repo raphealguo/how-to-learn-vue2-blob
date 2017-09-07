@@ -84,7 +84,9 @@
 
 			2.4.1节设计的 v-on 语法仅接受方法名: ```v-on:dblclick="editTodo"``` ，由于语法过于局限，所以没法在触发 editTodo 事件的时候知道当前元素映射的数据，更好的语法应该是 ```v-on:dblclick="editTodo(todo)"``` ，此外这一节也新增点语法糖: Vue 的事件修饰符。
 
-	* 2.5 完成todo案例
+	* 2.5 完成todo案例 (源码总共 2563 行，[查看代码](https://github.com/raphealguo/how-to-learn-vue2/tree/2.5/src)，[查看新增代码](https://github.com/raphealguo/how-to-learn-vue2/compare/2.4.2...2.5))
+
+			基本的 Vue 雏形就完成了，我们把一些代码重新组织了一下，新增了一点点语法糖，完善了整个 todo 的案例([查看代码](https://github.com/raphealguo/how-to-learn-vue2/tree/2.5/examples/2.5/todo))。到这一节结束，Vue 的工作原理已经剖析清楚了。
 
 3. 第三章 Vue进阶
 
