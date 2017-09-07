@@ -152,6 +152,40 @@ _c('ul', {},
 ))
 ```
 
+### 1.9 v:on事件1
+
+html:
+
+```html
+<button v-on:click="clickme">click me</button>
+```
+
+render code:
+
+```javascript
+_c('button', { 
+  on: { "click":clickme } 
+}, [ _v("click me")] )
+```
+
+### 1.10 v:on事件2
+
+html:
+
+```html
+<button v-on:click="clickme($event)">click me</button>
+```
+
+render code:
+
+```javascript
+_c('button', { 
+  on: { "click": function($event) { clickme($event) } } 
+}, [ _v("click me")] )
+```
+
+## 
+
 ## 2. renderHelpersFunc
 
 1. _c (tag, data, children)  创建一个非文本 VNode 节点

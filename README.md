@@ -64,7 +64,6 @@
 
 			想了解如何改善 VNode 的 patch 算法减少列表 DOM 大规模重绘，还可以阅读番外篇: [2.2.2.1 列表渲染 v-for 的 key](https://github.com/raphealguo/how-to-learn-vue2-blob/blob/master/articles/2.2.2.1.md)。
 
-
 	* 2.3 数据绑定
 
 		* [2.3.1 响应式原理](https://github.com/raphealguo/how-to-learn-vue2-blob/blob/master/articles/2.3.1.md) (源码总共 1547 行，[查看代码](https://github.com/raphealguo/how-to-learn-vue2/tree/2.3.1/src)，[查看新增代码](https://github.com/raphealguo/how-to-learn-vue2/compare/2.2.2.1...2.3.1))
@@ -77,9 +76,9 @@
 
 	* 2.4 事件处理器
 
-		* [2.4.1 事件监听](https://github.com/raphealguo/how-to-learn-vue2-blob/blob/master/articles/2.4.1.md) (源码总共 2391 行，[查看代码](https://github.com/raphealguo/how-to-learn-vue2/tree/2.4.1/src)，[查看新增代码](https://github.com/raphealguo/how-to-learn-vue2/compare/2.3.2...2.4.1))
+		* [2.4.1 事件处理](https://github.com/raphealguo/how-to-learn-vue2-blob/blob/master/articles/2.4.1.md) (源码总共 2391 行，[查看代码](https://github.com/raphealguo/how-to-learn-vue2/tree/2.4.1/src)，[查看新增代码](https://github.com/raphealguo/how-to-learn-vue2/compare/2.3.2...2.4.1))
 
-			xxx
+			前边一直在介绍如何渲染界面，当你需要和界面做交互的时候，就需要涉及到 Dom 的事件处理，所以在这一节，我们也要往之前的模型里边加上监听事件的语法。
 
 		* [2.4.2 ](https://github.com/raphealguo/how-to-learn-vue2-blob/blob/master/articles/2.4.2.md) (源码总共  行，[查看代码](https://github.com/raphealguo/how-to-learn-vue2/tree/2.4.2/src)，[查看新增代码](https://github.com/raphealguo/how-to-learn-vue2/compare/2.4.1...2.4.2))
 
