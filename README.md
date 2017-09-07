@@ -2,9 +2,9 @@
 
 ## 背景
 
-近期我们把微信公众平台管理端的前端框架切成MVVM架构，框架层面最终我们选择了 [Vue](https://github.com/vuejs/vue)，为了更了解Vue，阅读Vue源码是必要的。
+近期我们把微信公众平台管理端的前端框架切成 MVVM 架构，框架层面最终我们选择了 [Vue](https://github.com/vuejs/vue)，为了更了解 Vue，阅读Vue源码是必要的。
 
-我参考的Vue版本是 [2.2.0](https://github.com/vuejs/vue/tree/v2.2.0)，整个项目的代码1万2千行，如果不搞清楚原理，直接每一行看下来肯定会漏掉不少细节，或者对作者为什么这样写代码感到莫名其妙。
+我参考的 Vue 版本是 [2.2.0](https://github.com/vuejs/vue/tree/v2.2.0)，整个项目的代码1万2千行，如果不搞清楚原理，直接每一行看下来肯定会漏掉不少细节，或者对作者为什么这样写代码感到莫名其妙。
 
 如此庞大的项目要啃下来并非易事，里边涉及到非常多的概念：Virtual Dom; 条件/列表渲染; 自定义组件; 双向绑定; 指令等等。
 
@@ -16,13 +16,13 @@
 
 从 [how-to-learn-vue2项目](https://github.com/raphealguo/how-to-learn-vue2) 下载各个分支代码
 
-使用webpack进行打包，源码采用ES6风格编写。
+使用 webpack 进行打包，源码采用ES6风格编写。
 
 构建:  `npm install; webpack`
 
 统计当前分支源码行数: `npm run line`
 
-运行Demo: 直接使用 Chrome 打开 examples 目录里边的实例代码即可
+运行 Demo: 直接使用 Chrome 打开 examples 目录里边的实例代码即可
 
 ## 如何阅读
 

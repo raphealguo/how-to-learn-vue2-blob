@@ -184,7 +184,42 @@ _c('button', {
 }, [ _v("click me")] )
 ```
 
-## 
+## 1.11 v:on事件修饰符.stop
+
+html:
+
+```html
+<button v-on:click.stop="clickme($event)">click me</button>
+```
+
+render code:
+
+```javascript
+_c('button', { 
+  on: { "click": function($event){ $event.stopPropagation(); clickme($event) }
+}, [ _v("click me")] )
+```
+
+##   1.11 v:on键值修饰符@keyup.enter
+
+html:
+
+```html
+<input @keyup.enter="submit">
+```
+
+render code:
+
+```javascript
+_c('input', { 
+  on: { "keyup": function($event){ 
+    if(_k($event.keyCode, "enter", 13)) return null;
+    submit($event)
+  }
+}, [ ] )
+```
+
+
 
 ## 2. renderHelpersFunc
 
@@ -193,3 +228,4 @@ _c('button', {
 3. _s (exp)  把 exp 输出成字符串
 4. _e() 创建一个空的 VNode
 5. _l (list, render) 渲染一个 VNode 列表
+6. _k(eventKeyCode, key, builtInAlias) 判定当前事件的按键是否为预期按键值，builtInAlias == eventKeyCode
