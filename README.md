@@ -96,15 +96,17 @@
 
 	* 3.2 自定义组件
 
-		* 3.2.1 Vue.extend
+		* [3.2.1 Vue.extend](https://github.com/raphealguo/how-to-learn-vue2-blob/blob/master/articles/3.2.1.md) (源码总共 3200 行，[查看代码](https://github.com/raphealguo/how-to-learn-vue2/tree/3.2.1/src)，[查看新增代码](https://github.com/raphealguo/how-to-learn-vue2/compare/3.1...3.2.1))
 
-		* 3.2.2 简单的自定义组件
+		* [3.2.2 简单的自定义组件](https://github.com/raphealguo/how-to-learn-vue2-blob/blob/master/articles/3.2.2.md) (源码总共 3434 行，[查看代码](https://github.com/raphealguo/how-to-learn-vue2/tree/3.2.2/src)，[查看新增代码](https://github.com/raphealguo/how-to-learn-vue2/compare/3.2.1...3.2.2))
 
-		* 3.2.3 组件的prop
+		* [3.2.3 组件的 prop](https://github.com/raphealguo/how-to-learn-vue2-blob/blob/master/articles/3.2.3.md) (源码总共 3831 行，[查看代码](https://github.com/raphealguo/how-to-learn-vue2/tree/3.2.3/src)，[查看新增代码](https://github.com/raphealguo/how-to-learn-vue2/compare/3.2.2...3.2.3))
 
-		* 3.2.4 组件的事件与原生事件
+		* [3.2.4 组件的事件与原生事件](https://github.com/raphealguo/how-to-learn-vue2-blob/blob/master/articles/3.2.4.md) (源码总共 4394 行，[查看代码](https://github.com/raphealguo/how-to-learn-vue2/tree/3.2.4/src)，[查看新增代码](https://github.com/raphealguo/how-to-learn-vue2/compare/3.2.3...3.2.4))
 
-		* 3.2.5 slot
+		* [3.2.5 slot](https://github.com/raphealguo/how-to-learn-vue2-blob/blob/master/articles/3.2.5.md) (源码总共 4516 行，[查看代码](https://github.com/raphealguo/how-to-learn-vue2/tree/3.2.5/src)，[查看新增代码](https://github.com/raphealguo/how-to-learn-vue2/compare/3.2.4...3.2.5))
+
+		* [3.2.6 $refs](https://github.com/raphealguo/how-to-learn-vue2-blob/blob/master/articles/3.2.6.md) (源码总共 4633 行，[查看代码](https://github.com/raphealguo/how-to-learn-vue2/tree/3.2.6/src)，[查看新增代码](https://github.com/raphealguo/how-to-learn-vue2/compare/3.2.5...3.2.6))
 
 	* 3.3 nextTick
 
